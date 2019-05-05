@@ -1,0 +1,107 @@
+.OrderPage{
+
+}
+.Inviter{
+   height: 56px;
+   background: linear-gradient(45deg, #ff6610, #ffdd5e);
+   padding: 0 12px;
+   
+}
+.Inviter p{
+    margin-bottom: 0
+}
+.InviterName{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 600;
+    padding-top: 8px;
+}
+.InviterID{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+.DeliveryInfo{
+    padding: 12px;
+    border-bottom:10px #f2f2f2 solid;
+}
+.DeliveryInfo_title{
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    border-bottom: 1px #f2f2f2 solid;
+    padding-bottom: 8px;
+}
+.addDeliveryInfo{
+    margin-top: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.addDeliveryInfo img{
+    width: 18px;
+    height: 18px;
+}
+.addDeliveryInfo p{
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    line-height: 28px;
+    padding-left: 5px;
+    margin-bottom: 0
+}
+.ProductInfo{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ProductInfo img{
+    width: 6.8rem;
+    height: 112px;
+    border-radius: 10px;
+}
+.ProductInfo_text{
+    font-size: 14px;
+    color: #333;
+    line-height: 20px
+}
+.ProductInfo_text span{
+    font-weight: 600;
+}
+.ProductInfo_price{
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: right;
+}
+.ProductInfo_CashBack{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 20px;
+    text-align: right;
+}
+.span_CashBack{
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+}
+.span_price{
+    font-size: 14px;
+    color: #f83a5e;
+    line-height: 20px;
+    font-weight: 600;
+}
+.payButton{
+    height: 40px;
+    margin: 0 12px;
+    margin-top: 230px;
+    background: linear-gradient(45deg, #f4235e, #ff6d5e);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}

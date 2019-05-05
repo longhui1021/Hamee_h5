@@ -1,0 +1,12 @@
+.ProductsList{
+    background-color: #f2f2f2;
+}
+.ProductsList .dataList{
+    padding: 12px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:flex-start;
+    align-content:flex-start;
+}

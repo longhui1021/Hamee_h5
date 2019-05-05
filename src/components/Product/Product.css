@@ -1,0 +1,145 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    margin: 0;
+}
+.Product{
+    width: 164px;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 345px){
+    .Product{
+        width: 145px;
+        height: 230px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+}
+.ProductInfo{
+    padding: 5px 10px 5px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.ProductImg{
+    height: 140px;
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+.nameAndDes{
+    font-size: 16px;
+    margin-top: 7px;
+    color: #333;
+    line-height: 17px;
+}
+.nameAndDes span{
+    /* font-weight: 600; */
+}
+.Price{
+    font-size: 12px;
+    margin-top: 12px;
+    color: #f9435e;
+    line-height: 20px;
+    font-weight: 700;
+}
+.vipPrice{
+    font-size: 12px;
+    color: #ff9704;
+    line-height: 17px;
+}
+.label_Spike{
+    font-size: 12px;
+    color: #fff;
+    padding: 0 8px 0 8px;
+    border-radius: 10px;
+    line-height: 22px;
+    background: linear-gradient(45deg, #4b14da, #ea4dc9);
+    position: absolute;
+    top: 6px;
+    left:6px;
+}
+.label_Spike img{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+.label_hot{
+    font-size: 12px;
+    color: #fff;
+    padding: 0 8px 0 8px;
+    border-radius: 10px;
+    line-height: 22px;
+    background: linear-gradient(45deg, #f23c3c, #ff7222);
+    position: absolute;
+    top: 6px;
+    left:6px;
+}
+.label_new{
+    font-size: 12px;
+    color: #fff;
+    padding: 0 8px 0 8px;
+    border-radius: 10px;
+    line-height: 22px;
+    background: linear-gradient(45deg, #1977f5, #6cf0b8);
+    position: absolute;
+    top: 6px;
+    left:6px;
+}
+.label_hot img{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+.label_new img{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+
+.SpikeTime{
+    height: 26px;
+    width: 100%;
+    background-color: #4c14db;
+    position: absolute;
+    bottom: 0;
+}
+.SpikeTime .left{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    line-height: 26px;
+}
+.SpikeTime .right{
+    position: relative
+}
+.SpikeTime .time{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    align-content:center;
+}
+.SpikeTime .time div{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0 2px;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-top:3px;
+    line-height: 20px;
+}

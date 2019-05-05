@@ -1,0 +1,79 @@
+.BCAPay .top{
+    width:100%;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.BCAPay .button{
+    width:86%;
+    height: 40px;
+    margin: 35px auto 0;
+    background: linear-gradient(45deg, #f4235e, #ff6d5e);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+.BCAPay .button a{
+    display: inline-block; /*一定要将div设置为inline-block*/
+    vertical-align: middle;/*设置该元素在父元素中的位置*/
+}
+
+.BCAPay .top .payheader{
+    text-align: center
+}
+
+.BCAPay .top .payheader p{
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.BCAPay .paytitle{
+    font-size: 12px;
+    color: #666;
+    line-height: 17px;
+}
+
+.BCAPay .top .payCode{
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+
+.BCAPay .top .payCodeDecs{
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.BCAPay .payText{
+    margin-top: 26px
+}
+.BCAPay .payText p{
+    margin-bottom: 0px
+}
+
+.BCAPay .payText{
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.BCAPay a{
+    text-decoration:none
+}

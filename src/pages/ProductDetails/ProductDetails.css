@@ -1,0 +1,195 @@
+img{
+    width: 100%;
+}
+p{
+    margin-bottom: 0;
+  }
+.ProductDetails{
+    background-color: #f2f2f2;
+    overflow-y: scroll;
+}
+.header{
+    height: 360px;
+}
+.header img{
+    height: 360px;
+}
+.ProductInfos{
+    padding: 12px;
+    background-color: #fff;
+}
+.ProductDes{
+    font-size: 16px;
+    color: #333;
+    line-height: 22px;
+}
+.ProductPrice{
+    font-size: 16px;
+    color: #f83a5e;
+    line-height: 22px;
+    font-weight: 600;
+}
+.ProductRebate{
+    margin-left: 12px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 17px;
+    padding: 0 8px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ffdd5e, #ff6610);
+}
+.vipPrice{
+    font-size: 12px;
+    color: #ff9704;
+    line-height: 17px;
+}
+.SalesCount{
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 17px;
+    text-align: right;
+}
+.user{
+    height: 66px;
+    margin-top: 10px;
+    background: linear-gradient(45deg, #ffdd5e, #ff6610);
+    text-align: center;
+}
+.userImg img{
+    width: 44px;
+    margin-top: 11px;
+}
+.suerText p{
+    margin-bottom: 0
+}
+.user_Name{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 12px;
+    text-align: left;
+}
+.userInviteText{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+.Info{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 12px;
+    margin-bottom: 60px;
+}
+.InfoLeft{
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+}
+.InfoRight{
+    font-size: 14px;
+    text-align: right;
+    color: #333;
+    line-height: 20px;
+}
+.ProductList{
+    margin-top: 10px;
+    padding: 12px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+.ProductList_title{
+    font-size: 16;
+    color: #333;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.List{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:flex-start;
+    align-content:flex-start;
+}
+.endImg{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 14px;
+    right:14px;
+}
+
+.DrawerImg img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.DrawerPrice{
+    height: 100px;
+    position: relative;
+}
+.DrawerPrice p{
+    position: absolute;
+    bottom: 0;
+    color: #f83a5e;
+    font-size: 16px;
+    font-weight: 600;
+}
+.SelectTitle{
+    color: #9b9b9b;
+    font-size: 14px;
+    margin-top: 16px;
+}
+.RadioGroup{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.numberSelect{
+    margin-top: 10px;
+}
+.DrawerNumber{
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+}
+.define_Button{
+    height: 40px;
+    background: linear-gradient(45deg, #f4235e, #ff6d5e);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.ProductDetails .footer{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-shadow: 5px 5px 10px #888888;
+    position: absolute;
+    bottom: 0;
+}
+.pay_Button{
+    height: 40px;
+    background: linear-gradient(45deg, #f4235e, #ff6d5e);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 600;
+}
+.DrawerBox{
+    height: 360px;
+    overflow-y: scroll;
+}

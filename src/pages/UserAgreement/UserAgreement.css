@@ -1,0 +1,41 @@
+.UserAgreement{
+    padding: 20px;
+}
+.UserAgreement h1{
+    text-align: center;
+}
+.UserAgreement h2{
+    text-align: center;
+}
+.UserAgreement p{
+    text-indent:25px;
+}
+.UserAgreement p,.UserAgreement ul,.UserAgreement li{
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+}
+.ul_1{
+    list-style:upper-roman;
+    padding-inline-start: 10px;
+}
+.ul_2{
+    list-style:decimal;
+    padding-inline-start: 12px;
+}
+.ul_3{
+    list-style:lower-alpha;
+    padding-inline-start: 12px;
+}
+.UserAgreement li{
+    margin-bottom: 10px;
+}
+.UserAgreement ul{
+    margin-bottom: 30px;
+}
+.UserAgreement span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 50px;
+    color: #000;
+}

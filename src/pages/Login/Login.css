@@ -1,0 +1,136 @@
+.Login{
+    padding: 33px 24px 0 24px;
+    background:url("../../images/login_bg@2x.png");
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.title{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 67px;
+    margin-bottom: 64px;
+}
+.title .in{
+    margin-left: 20px;
+}
+.userName{
+    margin-bottom: 18px;
+}
+.userName span{
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+    margin-left: 8px;
+}
+.userName img{
+    width: 18px;
+    height: 18px;
+}
+.userName input{
+    width: 100%;
+    height: 40px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    padding: 0 10px;
+}
+
+.AreaCode{
+    height:40px;
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    text-align: center;
+    line-height: 38px;
+}
+.AreaCode span{
+    margin-left: 5px;
+}
+.AreaCode img{
+    width: 10px;
+    height: 6px;
+}
+
+input::-webkit-input-placeholder { /* WebKit browsers */ 
+    font-size: 12px;
+    color: #ffffff80; 
+    margin-left: 10px;
+}
+
+.password span{
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+    margin-left: 8px;
+}
+.password img{
+    width: 18px;
+    height: 18px;
+}
+.password_input img{
+    width: 22px;
+    height: 15px;
+    margin-top:10px;
+}
+.password_input{
+    width: 100%;
+    height: 40px;
+    border: 1px #fff solid;
+    border-radius: 12px;
+    margin-top: 10px;
+    text-align: center;
+    color:#fff;
+}
+.password_input input{
+    width: 100%;
+    height: 38px;
+    border:0;
+    /* background-color: rgba(0, 0, 0, 0); */
+    background:url("../../images/input_back.png");
+    background-repeat:repeat;
+    padding: 0 10px;
+}
+.text_button{
+    margin-top: 10px;
+}
+.forget{
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+}
+.sign{
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+    text-align: right;
+}
+.text_button span{
+    padding-bottom: 2px;
+    border-bottom: 1px #fff solid;
+}
+.loginButton{
+    height: 40px;
+    background:url("../../images/log in_but.png");
+    background-repeat:repeat;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.Login .selectRule{
+    text-align: center;
+    margin-top: 90px;
+}
+.Login .selectRule img{
+    width: 16px;
+    height: 16px;
+}
+.Login .selectRule span{
+    font-size: 12px;
+    color: #ffffffcc;
+    margin-left: 5px;
+}

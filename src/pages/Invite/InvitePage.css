@@ -1,0 +1,234 @@
+
+.InvitePage{
+    background-color: #0A0230;
+    background:url("../../images/member_bg@2x.jpg");
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+    overflow-y: scroll;
+    padding-bottom: 70px;
+}
+.InviteText{
+    height: 70px;
+    background: linear-gradient(45deg, #ff6610, #ffdd5e);
+    padding: 0 12px;
+}
+.InviteText img{
+    height: 44px;
+    width: 44px;
+    margin-top: 13px;
+}
+.InviteText p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 600;
+    margin-top:15px;
+}
+.InviteHeader{
+    height: 350px;
+    background:url("../../images/member_bg_invite_blue@2x.png");
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+@media screen and (max-width: 345px){
+    .InviteHeader{
+        height: 320px;
+        background:url("../../images/member_bg_invite_blue@2x.png");
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    }
+}
+.Invite_title{
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size:20px;
+    line-height:32px
+}
+.Invite_title p{
+    margin-bottom: 0
+}
+.Invite_title .fontBig{
+    font-size: 40px;
+    line-height: 48px;
+}
+.Invite_title .year{
+    font-size: 14px;
+    color: #ffdf49;
+    line-height:20px;
+    margin-top: 10px;
+}
+.VipWelfare{
+    width: 284px;
+    height: 56px;
+    margin: 0 auto;
+    background:url("../../images/member_bg_gradient@2x.png");
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.VipWelfare_info{
+    margin-top: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #4b14da, #ea4dc9);
+    padding: 10px 16px;
+}
+.Left{
+    height: 270px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background:url("../../images/member_bg1@2x.jpg");
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.Left p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+    margin-top: 92px;
+} 
+.Top{
+    height: 58px;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    background:url("../../images/member_bg2@2x.jpg");
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+.Center{
+    height: 98px;
+    padding: 5px;
+    margin-top: 10px; 
+    background:url("../../images/member_bg3@2x.jpg");
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+.Bottom{
+    height: 98px;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px; 
+    background:url("../../images/member_bg4@2x.jpg");
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+.Top p,.Center p,.Bottom p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+.GiftPackages{
+    width: 284px;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background:url("../../images/member_bg_gradient@2x.png");
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.giftList{
+    margin-top: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #4b14da, #ea4dc9);
+    padding: 19px 12px;
+}
+.giftList .list{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:flex-start;
+    align-content:flex-start;
+}
+.giftList .viewMore{
+    width: 100px;
+    font-size: 14px;
+    color: #fff;
+    border:1px #fff solid;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.viewMoreImg{
+    text-align: center;
+    margin-top: 14px;
+}
+.viewMoreImg img{
+    width: 24px;
+    height: 24px;
+}
+.qualityshopping_title{
+    font-size: 20px;
+    color: #ffc36d;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 50px;
+    margin-top: 40px;
+}
+.qualityshopping{
+    color: #ffc36d;
+    border: 1px #ffc36d solid;
+    margin: 0 12px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 12px;
+}
+.qualityshopping .ul_out{
+    font-size: 16px;
+}
+.qualityshopping .ul_top{
+    font-size: 14px;
+    list-style:decimal;
+    padding-inline-start: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.qualityshopping .ul_bottom{
+    font-size: 14px;
+    list-style:none;
+    padding-inline-start: 0px;
+    margin-top: 10px;
+}
+.About_title{
+    font-size: 20px;
+    color: #ffc36d;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 40px;
+}
+.About{
+    font-size: 14px;
+    color: #ffc36d;
+    line-height: 20px;
+    margin: 0 30px;
+    margin-top: 20px;
+}
+.openingButton{
+    height: 56px;
+    width: 100%;
+    margin-top: 32px;
+    background: linear-gradient(45deg, #f4235e, #ff6d5e);
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 56px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+}
+
